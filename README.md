@@ -144,27 +144,6 @@ Warning: editing files in the pub cache is a local, temporary workaround. Packag
 - If model inference is slow, try a smaller model or enable NNAPI / GPU delegates where supported.
 - If you see Gradle/AGP errors about `compileSdkVersion` or dependencies, ensure your Android SDK and `compileSdkVersion` satisfy plugin requirements (often `compileSdkVersion 31` or above).
 
-## How to publish this as a sample on GitHub
-
-1. Create a new repo on GitHub (web UI).
-2. From this project folder, add the remote and push:
-
-```bash
-git init
-git add .
-git commit -m "Initial object-detection sample"
-git branch -M main
-git remote add origin git@github.com:<your-username>/<repo-name>.git
-git push -u origin main
-```
-
-If you prefer HTTPS:
-
-```bash
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git push -u origin main
-```
-
 ## Code pointers (where to look)
 
 - `lib/main.dart` — app entry and camera initialization.
