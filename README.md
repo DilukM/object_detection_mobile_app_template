@@ -1,5 +1,3 @@
-# object_detection
-
 # Object Detection — Flutter sample
 
 A small, starter Flutter app that demonstrates real-time object detection using the device camera and a TensorFlow Lite model (SSD MobileNet). This repository is intended to be a concise starting point for developers who want to build mobile object detection apps.
@@ -36,8 +34,8 @@ flutter --version
 1. Clone the repo (or copy files into a new Flutter project):
 
 ```bash
-git clone <your-repo-url>
-cd object_detection
+git clone https://github.com/DilukM/object_detection_mobile_app_template.git
+cd object_detection_mobile_app_template
 ```
 
 2. Install dependencies:
