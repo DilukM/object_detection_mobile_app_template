@@ -183,15 +183,4 @@ Contributions are welcome. A recommended workflow:
 
 Include a license file if you want this sample to be publicly re-usable. If you want a permissive default, consider the MIT license.
 
----
 
-If you'd like, I can:
-
-- Add a brief LICENSE file (MIT) and commit it.
-- Vendor the `tflite_v2` plugin into `packages/tflite_v2/` and apply the namespace fix and update `pubspec.yaml` to point at it. This makes the repo fully reproducible and avoids pub-cache edits.
-
-Requirements coverage:
-
-- Write README with instructions: Done.
-
-Next steps I can take on request: add LICENSE, vendor plugin, or create a release-ready example with CI.
